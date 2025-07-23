@@ -1,0 +1,40 @@
+{
+  "name": "travel-professor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "process-pdfs": "ts-node src/scripts/processPDFs.ts"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.34",
+    "framer-motion": "^12.17.0",
+    "gsap": "^3.13.0",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.6",
+    "pdfjs-dist": "^5.3.31",
+    "react": "^18.2.0",
+    "react-datepicker": "^8.4.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.6.1",
+    "styled-components": "^6.1.18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.8.3",
+    "vite": "^5.0.8"
+  }
+}
